@@ -1,8 +1,7 @@
 package com.webhook.demo.controller;
 
-import com.webhook.demo.com.webhook.db.Subscriber;
-import com.webhook.demo.com.webhook.db.SubscriberDAO;
-import com.webhook.demo.com.webhook.db.SubscriberService;
+import com.webhook.demo.db.Subscriber;
+import com.webhook.demo.service.SubscriberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

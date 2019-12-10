@@ -1,5 +1,8 @@
-package com.webhook.demo.com.webhook.db;
+package com.webhook.demo.service;
 
+import com.webhook.demo.db.Subscriber;
+import com.webhook.demo.db.SubscriberDAO;
+import com.webhook.demo.db.WebhookEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;

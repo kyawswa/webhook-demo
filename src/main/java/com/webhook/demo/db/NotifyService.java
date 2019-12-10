@@ -1,4 +1,4 @@
-package com.webhook.demo.com.webhook.db;
+package com.webhook.demo.db;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.EventListener;

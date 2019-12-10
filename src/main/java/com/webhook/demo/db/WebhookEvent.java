@@ -1,4 +1,4 @@
-package com.webhook.demo.com.webhook.db;
+package com.webhook.demo.db;
 
 public class WebhookEvent {
     private String name;

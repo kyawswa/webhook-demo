@@ -1,4 +1,4 @@
-package com.webhook.demo.com.webhook.db;
+package com.webhook.demo.db;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -64,5 +64,16 @@ public class Subscriber {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "Subscriber{" +
+                "id=" + id +
+                ", token='" + token + '\'' +
+                ", url='" + url + '\'' +
+                ", secretKey='" + secretKey + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
