@@ -40,6 +40,7 @@ public class NotifyService {
         for(Subscriber sub: subscriberDAO.findAll()) {
             executor.submit(() -> {
                 System.out.println("Subscriber " + sub.getName() + " sent.");
+                logger.info("Subscriber " + sub.getName() + " sent.");
                 try {
                     restTemplate.postForEntity(sub.getUrl(), sub, String.class);
                 }catch (Exception ex) {
